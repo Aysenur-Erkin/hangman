@@ -21,7 +21,7 @@ This is a simple Hangman game implemented in Python. The game randomly selects a
 
     ```sh
     git clone https://github.com/Aysenur-Erkin/hangman.git
-    cd hangman-game
+    cd hangman
     ```
 
 2. **Run the game**

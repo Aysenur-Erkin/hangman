@@ -5,7 +5,7 @@ def choose_word():
     return random.choice(words)
 
 def display_hangman(tries):
-    stages = [  # final state: head, torso, both arms, and both legs
+    stages = [  
                 """
                    --------
                    |      |
@@ -15,7 +15,7 @@ def display_hangman(tries):
                    |     / \\
                    -
                 """,
-                # head, torso, both arms, and one leg
+                
                 """
                    --------
                    |      |
@@ -25,7 +25,7 @@ def display_hangman(tries):
                    |     / 
                    -
                 """,
-                # head, torso, and both arms
+              
                 """
                    --------
                    |      |
@@ -35,7 +35,7 @@ def display_hangman(tries):
                    |      
                    -
                 """,
-                # head, torso, and one arm
+                
                 """
                    --------
                    |      |
@@ -45,7 +45,7 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-                # head and torso
+              
                 """
                    --------
                    |      |
@@ -55,7 +55,7 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-                # head
+             
                 """
                    --------
                    |      |
@@ -65,7 +65,7 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-                # initial empty state
+               
                 """
                    --------
                    |      |

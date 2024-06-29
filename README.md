@@ -20,7 +20,7 @@ This is a simple Hangman game implemented in Python. The game randomly selects a
 1. **Clone the repository**
 
     ```sh
-    git clone https://github.com/Aysenur-Erkin/hangman-game.git
+    git clone https://github.com/Aysenur-Erkin/hangman.git
     cd hangman-game
     ```
 

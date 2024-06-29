@@ -1,4 +1,3 @@
-# hangman
 Hangman game in Python
 # Hangman Game
 
